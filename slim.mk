@@ -8,18 +8,18 @@ TARGET_SCREEN_WIDTH := 1080
 # Inherit from the common Open Source product configuration
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+# Inherit some common Slim stuff.
+$(call inherit-product, vendor/slim/config/common_full_phone.mk)
 
 # Enhanced NFC
-$(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
+$(call inherit-product, vendor/slim/config/nfc_enhanced.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/lge/geefhd_att_us/full_geefhd_att_us.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := geefhd_att_us
-PRODUCT_NAME := cm_geefhd_att_us
+PRODUCT_NAME := slim_geefhd_att_us
 PRODUCT_BRAND := LGE
 PRODUCT_MODEL := LG-E980
 PRODUCT_MANUFACTURER := LGE

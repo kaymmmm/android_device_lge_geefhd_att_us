@@ -14,4 +14,4 @@
 # limitations under the License.
 #
 
-add_lunch_combo cm_geefhd_att_us-userdebug
+add_lunch_combo slim_geefhd_att_us-userdebug
