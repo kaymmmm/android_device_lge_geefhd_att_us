@@ -39,10 +39,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.telephony.default_network=9 \
     ro.ril.def.preferred.network=9
 
-# Vold configuration
-PRODUCT_COPY_FILES += \
-    device/lge/geefhd_att_us/vold.fstab:system/etc/vold.fstab
-
 # GPS configuration
 PRODUCT_COPY_FILES += \
         device/lge/geefhd_att_us/configs/gps.conf:system/etc/gps.conf
@@ -50,7 +46,9 @@ PRODUCT_COPY_FILES += \
 # Ramdisk
 PRODUCT_COPY_FILES += \
     device/lge/geefhd_att_us/ramdisk/init.geefhd_att_us.rc:root/init.geefhd_att_us.rc \
-    device/lge/geefhd_att_us/ramdisk/ueventd.geefhd_att_us.rc:root/ueventd.geefhd_att_us.rc
+    device/lge/geefhd_att_us/ramdisk/ueventd.geefhd_att_us.rc:root/ueventd.geefhd_att_us.rc \
+    device/lge/geefhd_att_us/ramdisk/fstab.geefhd_att_us:root/fstab.geefhd_att_us
+
 
 # NFC Firmware
 PRODUCT_COPY_FILES += \
