@@ -5,7 +5,7 @@
      "branch": "slim4.3"
   },
   {
-     "repository": "TeamLGOG/android_kernel_lge_geefhd",
+     "repository": "kaymmmm/android_kernel_lge_geefhd",
      "target_path": "kernel/lge/geefhd",
      "branch": "10.2-gprojbased"
   },
